@@ -5,7 +5,7 @@ import { FaFacebook, FaTwitter } from "react-icons/fa";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className="relative flex justify-between items-center px-8 py-12">
+    <header className="relative flex justify-between items-center px-8 py-12 lg:px-32 lg:py-14">
       <div>
         <img
           src="./images/logo-bookmark.svg"
@@ -21,27 +21,27 @@ const Header = () => {
           onClick={() => setIsOpen(true)}
         />
       </div>
-      <nav className="hidden md:block">
+      <nav className="hidden md:block md:py-2">
         <ul className="flex items-center">
         <li className="mx-4">
-        <a href="#" className="text-VeryDarkBlue uppercase hover:text-SoftRed">
+        <a href="#" className="text-VeryDarkBlue text-base uppercase hover:text-SoftRed transition-colors duration-300">
           features
         </a>
         </li>
       <li className="mx-4">
-      <a href="#" className=" text-VeryDarkBlue uppercase hover:text-SoftRed">
+      <a href="#" className=" text-VeryDarkBlue text-base uppercase hover:text-SoftRed transition-colors duration-300">
           pricing
         </a>
       </li>
         <li className="mx-4">
-        <a href="#" className=" text-VeryDarkBlue uppercase hover:text-SoftRed">
+        <a href="#" className=" text-VeryDarkBlue text-base uppercase hover:text-SoftRed transition-colors duration-300">
           contact
         </a>
         </li>
       <li className="mx-4">
       <a
           href="#"
-          className=" py-2 px-12 bg-SoftRed text-white uppercase border-0 rounded-md shadow-md hover:bg-white hover:border hover:border-SoftRed hover:text-SoftRed transition-all duration-300"
+          className=" py-2 px-8 bg-SoftRed text-base text-white border uppercase rounded-md shadow-md hover:bg-white hover:border-SoftRed hover:text-SoftRed transition-all duration-300"
         >
           Login
         </a>
