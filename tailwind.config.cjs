@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./index.html",
+  "./src/**/*.{js,ts,jsx,tsx}",],
   theme: {
     extend: {
       colors: {
@@ -8,6 +9,7 @@ module.exports = {
         SoftRed: "hsl(0, 94%, 66%)",
         GrayishBlue: "hsl(229, 8%, 60%)",
         VeryDarkBlue: "hsl(229, 31%, 21%)",
+        navMobile : "hsla(229, 31%, 11%, 0.9)"
       },
     },
   },
