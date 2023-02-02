@@ -21,27 +21,27 @@ const Header = () => {
           onClick={() => setIsOpen(true)}
         />
       </div>
-      <nav className="hidden md:block md:py-2">
+      <nav className="hidden md:block">
         <ul className="flex items-center">
-        <li className="mx-4">
-        <a href="#" className="text-VeryDarkBlue text-base uppercase hover:text-SoftRed transition-colors duration-300">
+        <li className="mx-4 lg:mx-6">
+        <a href="#" className="text-VeryDarkBlue text-base uppercase hover:text-SoftRed transition-colors duration-300 md:text-lg">
           features
         </a>
         </li>
-      <li className="mx-4">
-      <a href="#" className=" text-VeryDarkBlue text-base uppercase hover:text-SoftRed transition-colors duration-300">
+      <li className="mx-4 lg:mx-6">
+      <a href="#" className=" text-VeryDarkBlue text-base uppercase hover:text-SoftRed transition-colors duration-300 md:text-lg">
           pricing
         </a>
       </li>
-        <li className="mx-4">
-        <a href="#" className=" text-VeryDarkBlue text-base uppercase hover:text-SoftRed transition-colors duration-300">
+        <li className="mx-4 lg:mx-6">
+        <a href="#" className=" text-VeryDarkBlue text-base uppercase hover:text-SoftRed transition-colors duration-300 md:text-lg">
           contact
         </a>
         </li>
-      <li className="mx-4">
+      <li className="mx-4 lg:mx-6">
       <a
           href="#"
-          className=" py-2 px-8 bg-SoftRed text-base text-white border uppercase rounded-md shadow-md hover:bg-white hover:border-SoftRed hover:text-SoftRed transition-all duration-300"
+          className=" py-2 px-8 bg-SoftRed text-base text-white border uppercase rounded-md shadow-md hover:bg-white hover:border-SoftRed hover:text-SoftRed transition-all duration-300 md:text-lg"
         >
           Login
         </a>
