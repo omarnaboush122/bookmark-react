@@ -5,7 +5,7 @@ import { FaFacebook, FaTwitter } from "react-icons/fa";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className="relative flex justify-between items-center px-8 py-12 lg:px-32 lg:py-14">
+    <header className="relative flex justify-between items-center px-8 py-12 sm:px-16 lg:px-32 lg:py-14">
       <div>
         <img
           src="./images/logo-bookmark.svg"
@@ -49,7 +49,7 @@ const Header = () => {
         </ul>
       </nav>
       {isOpen && (
-        <div className="absolute top-0 bottom-0 left-0 right-0 h-screen bg-mobileBg text-2xl w-full py-12 px-8 md:hidden">
+        <div className="absolute top-0 bottom-0 left-0 right-0 h-screen bg-mobileBg text-2xl w-full py-12 px-8 z-50 md:hidden">
           <div className="flex justify-between items-center">
             <img
               src="./images/logo-bookmark.svg"
