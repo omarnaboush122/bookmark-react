@@ -13,7 +13,7 @@ const Header = () => {
           className="cursor-pointer"
         />
       </div>
-      <div>
+      <div className="md:hidden">
         <img
           src="./images/icon-hamburger.svg"
           alt="icon-hamburger"
@@ -21,8 +21,35 @@ const Header = () => {
           onClick={() => setIsOpen(true)}
         />
       </div>
+      <nav className="hidden md:block">
+        <ul className="flex items-center">
+        <li className="mx-4">
+        <a href="#" className="text-VeryDarkBlue uppercase hover:text-SoftRed">
+          features
+        </a>
+        </li>
+      <li className="mx-4">
+      <a href="#" className=" text-VeryDarkBlue uppercase hover:text-SoftRed">
+          pricing
+        </a>
+      </li>
+        <li className="mx-4">
+        <a href="#" className=" text-VeryDarkBlue uppercase hover:text-SoftRed">
+          contact
+        </a>
+        </li>
+      <li className="mx-4">
+      <a
+          href="#"
+          className=" py-2 px-12 bg-SoftRed text-white uppercase border-0 rounded-md shadow-md hover:bg-white hover:border hover:border-SoftRed hover:text-SoftRed transition-all duration-300"
+        >
+          Login
+        </a>
+      </li>
+        </ul>
+      </nav>
       {isOpen && (
-        <div className="absolute top-0 bottom-0 left-0 right-0 h-screen bg-mobileBg text-2xl w-full py-12 px-8">
+        <div className="absolute top-0 bottom-0 left-0 right-0 h-screen bg-mobileBg text-2xl w-full py-12 px-8 md:hidden">
           <div className="flex justify-between items-center">
             <img
               src="./images/logo-bookmark.svg"
@@ -63,10 +90,16 @@ const Header = () => {
             </a>
           </nav>
           <div className="mt-32 flex justify-center items-center">
-            <a href="#" className="text-gray-300 mr-12 hover:text-SoftRed transition-all duration-200">
+            <a
+              href="#"
+              className="text-gray-300 mr-12 hover:text-SoftRed transition-all duration-200"
+            >
               <FaFacebook size={40} />
             </a>
-            <a href="#" className="text-gray-300 hover:text-SoftRed transition-all duration-200">
+            <a
+              href="#"
+              className="text-gray-300 hover:text-SoftRed transition-all duration-200"
+            >
               <FaTwitter size={40} />
             </a>
           </div>
