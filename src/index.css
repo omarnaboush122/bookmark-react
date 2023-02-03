@@ -13,3 +13,17 @@ body {
   filter: opacity(0.5) drop-shadow(0 0 0 white);
 }
 
+.active {
+  color: hsl(229, 31%, 21%);
+}
+
+.active::after {
+  content: "";
+  position: absolute;
+  width: 75%;
+  height: 5px;
+  background-color: hsl(0, 94%, 66%);
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
