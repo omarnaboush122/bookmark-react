@@ -28,6 +28,19 @@ const Features = () => {
       <button onClick={tab2} className={`relative py-4 text-GrayishBlue cursor-pointer w-72 mx-auto border-b border-b-gray-500 ${tab === "tab2" ? "active" : ""} transition-all duration-300 lg:text-xl lg:border-0`}>Speedy Searching</button>
       <button onClick={tab3} className={`relative py-4 text-GrayishBlue cursor-pointer w-72 mx-auto border-b border-b-gray-500 ${tab === "tab3" ? "active" : ""} transition-all duration-300 lg:text-xl lg:border-0`}>Easy Searching</button>
     </div>
+    <article className="mt-20 flex flex-col items-center">
+      <div className="relative">
+        <img className="w-[300px]" src="./images/illustration-features-tab-1.svg" alt="illustration-features-tab-1" />
+        <div className="absolute bg-SoftBlue h-52 w-72 top-9 -left-10 -z-10 border-b rounded-br-full rounded-tr-full"></div>
+      </div>
+      <div className="max-w-[400px] mx-auto text-center mt-24">
+        <h1 className="text-2xl text-VeryDarkBlue font-medium">Bookmark in one click</h1>
+        <p className="text-base mt-4 text-GrayishBlue">
+        Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.
+        </p>
+        <button className="hidden">More Info</button>
+      </div>
+    </article>
     </section>
   );
 }
