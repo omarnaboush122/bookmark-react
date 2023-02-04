@@ -7,6 +7,14 @@ const Extensions = () => {
         <h1 className="text-2xl text-VeryDarkBlue font-medium sm:text-3xl md:text-4xl lg:text-5xl">Download the extension</h1>
         <p className="text-GrayishBlue mt-4 sm:text-lg md:text-xl lg:mt-6">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
       </div>
+      <div className="flex flex-col">
+        <article className="card bg-white p-8 my-10 w-80 mx-auto h-[450px] text-center shadow-2xl rounded-xl">
+          <img src="./images/logo-chrome.svg" alt="logo-chrome" className="mt-10 mx-auto" />
+          <h3 className="mt-10 mb-3 text-VeryDarkBlue text-2xl font-medium">Add To Chrome</h3>
+          <p className="text-GrayishBlue">Minimum version 62</p>
+          <button className="mt-20 bg-SoftBlue text-white px-7 py-3 rounded-md border hover:bg-white hover:text-SoftBlue hover:border-SoftBlue transition-all duration-300">Add & Install Extension</button>
+        </article>
+      </div>
     </section>
   );
 }

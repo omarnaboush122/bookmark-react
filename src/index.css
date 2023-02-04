@@ -28,3 +28,9 @@ body {
   transform: translateX(-50%);
 }
 
+.card {
+  background-image: url("../public/images/bg-dots.svg");
+  background-repeat: no-repeat;
+  background-position: bottom 120px center;
+  background-size: 100%;
+}
