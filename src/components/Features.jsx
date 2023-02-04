@@ -18,10 +18,10 @@ const Features = () => {
 
   
   return (
-    <section className="p-5 md:p-12">
+    <section className="p-5 my-20 md:p-12">
     <div className="text-center">
-      <h1 className="text-VeryDarkBlue text-3xl font-medium md:text-4xl">Features</h1>
-      <p className="text-GrayishBlue text-base max-w-[600px] my-8 mx-auto md:text-lg lg:text-xl">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+      <h1 className="text-VeryDarkBlue text-3xl font-medium md:text-4xl lg:text-5xl">Features</h1>
+      <p className="text-GrayishBlue max-w-[600px] my-8 mx-auto md:text-lg lg:text-xl">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
     </div>
     <div className="relative flex flex-col max-w-4xl mx-auto lg:flex-row lg:border-b lg:border-b-gray-500">
       <button onClick={tab1} className={`relative py-4 text-GrayishBlue cursor-pointer w-72 mx-auto border-t border-t-gray-500 border-b border-b-gray-500 ${tab === "tab1" ? "active" : ""} transition-all duration-300 lg:text-xl lg:border-0`}>Simple Bookmarking</button>
@@ -35,7 +35,7 @@ const Features = () => {
       </div>
       <div className="max-w-[400px] mx-auto text-center mt-24 sm:mt-32 lg:mt-0 lg:ml-16 lg:text-left lg:max-w-[480px]">
         <h1 className="text-2xl text-VeryDarkBlue font-medium sm:text-3xl lg:text-4xl">Bookmark in one click</h1>
-        <p className="text-base mt-4 text-GrayishBlue sm:text-lg lg:text-xl lg:mb-8">
+        <p className="mt-4 text-GrayishBlue sm:text-lg lg:text-xl lg:mb-8">
         Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.
         </p>
         <button className="hidden lg:block lg:text-white lg:bg-SoftBlue lg:py-4 lg:px-8 lg:rounded-md lg:border lg:shadow-md lg:hover:bg-white lg:hover:border-SoftBlue lg:hover:text-SoftBlue transition-all duration-300">More Info</button>
@@ -48,7 +48,7 @@ const Features = () => {
       </div>
       <div className="max-w-[400px] mx-auto text-center mt-24 sm:mt-32 lg:mt-0 lg:ml-16 lg:text-left lg:max-w-[480px]">
         <h1 className="text-2xl text-VeryDarkBlue font-medium sm:text-3xl lg:text-4xl">Intelligent search</h1>
-        <p className="text-base mt-4 text-GrayishBlue sm:text-lg lg:text-xl lg:mb-8">
+        <p className="mt-4 text-GrayishBlue sm:text-lg lg:text-xl lg:mb-8">
         Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.
         </p>
         <button className="hidden lg:block lg:text-white lg:bg-SoftBlue lg:py-4 lg:px-8 lg:rounded-md lg:border lg:shadow-md lg:hover:bg-white lg:hover:border-SoftBlue lg:hover:text-SoftBlue transition-all duration-300">More Info</button>
@@ -61,7 +61,7 @@ const Features = () => {
       </div>
       <div className="max-w-[400px] mx-auto text-center mt-24 sm:mt-32 lg:mt-0 lg:ml-16 lg:text-left lg:max-w-[480px]">
         <h1 className="text-2xl text-VeryDarkBlue font-medium sm:text-3xl lg:text-4xl">Share your bookmarks</h1>
-        <p className="text-base mt-4 text-GrayishBlue sm:text-lg lg:text-xl lg:mb-8">
+        <p className="mt-4 text-GrayishBlue sm:text-lg lg:text-xl lg:mb-8">
         Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.
         </p>
         <button className="hidden lg:block lg:text-white lg:bg-SoftBlue lg:py-4 lg:px-8 lg:rounded-md lg:border lg:shadow-md lg:hover:bg-white lg:hover:border-SoftBlue lg:hover:text-SoftBlue transition-all duration-300">More Info</button>

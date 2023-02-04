@@ -6,7 +6,7 @@ const Main = () => {
     <div className="flex flex-col-reverse items-center w-full lg:flex-row lg:justify-between lg:items-start lg:mt-12">
         <div className="text-center max-w-sm mx-auto sm:max-w-lg lg:max-w-xl lg:w-1/2 lg:text-left">
         <h1 className="text-VeryDarkBlue text-3xl font-medium my-8 max-w-xl sm:text-4xl lg:text-5xl">A Simple Bookmark Manager</h1>
-        <p className="text-GrayishBlue text-base mb-12 max-w-lg sm:text-lg">
+        <p className="text-GrayishBlue mb-12 max-w-lg sm:text-lg">
         A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.
         </p>
         <div>
