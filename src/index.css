@@ -34,3 +34,8 @@ body {
   background-position: bottom 120px center;
   background-size: 100%;
 }
+
+.img-active {
+  transform: rotate(180deg);
+  filter: brightness(0) saturate(100%) invert(36%) sepia(14%) saturate(2918%) hue-rotate(313deg) brightness(130%) contrast(96%);
+}
