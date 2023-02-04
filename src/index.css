@@ -3,8 +3,11 @@
 @tailwind utilities;
 
 
-body {
+body,input,button {
   font-family: 'Rubik', sans-serif;
+}
+
+body {
   font-size: 18px;
   overflow-x: hidden;
 }

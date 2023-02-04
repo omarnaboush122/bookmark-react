@@ -22,7 +22,7 @@ const Questions = () => {
       <div className="w-full m-auto sm:max-w-[600px]">
         {allQuestions}
       </div>
-      <button className="w-[150px] mx-auto my-16 flex justify-center items-center py-3 bg-SoftBlue text-white border rounded-md shadow-md hover:bg-white hover:text-SoftBlue hover:border-SoftBlue transition-all duration-300">More Info</button>
+      <button className="w-[150px] mx-auto mt-16 mb-24 flex justify-center items-center py-3 bg-SoftBlue text-white border rounded-md shadow-md hover:bg-white hover:text-SoftBlue hover:border-SoftBlue transition-all duration-300">More Info</button>
     </section>
   );
 };

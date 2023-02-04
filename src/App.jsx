@@ -1,3 +1,4 @@
+import Contact from "./components/Contact";
 import Extensions from "./components/Extensions";
 import Features from "./components/Features";
 import Header from "./components/Header";
@@ -12,6 +13,7 @@ function App() {
       <Features/>
       <Extensions/>
       <Questions/>
+      <Contact/>
     </div>
   );
 }

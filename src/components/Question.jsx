@@ -19,9 +19,9 @@ const Question = ({ question, answer }) => {
         <img
           src="./images/icon-arrow.svg"
           alt="icon-arrow"
-          className={`w-[25px] cursor-pointer ${
+          className={`cursor-pointer ${
             showAnswer ? "img-active" : ""
-          } transition-all duration-300`}
+          } transition-all duration-300 lg:w-[25px]`}
           onClick={toggleAnswer}
         />
       </div>
