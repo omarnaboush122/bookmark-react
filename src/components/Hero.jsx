@@ -1,6 +1,6 @@
 
 
-const Main = () => {
+const Hero = () => {
   return (
     <section className="relative py-8 px-5 lg:py-20 lg:px-16">
     <div className="flex flex-col-reverse items-center w-full lg:flex-row lg:justify-between lg:items-start lg:mt-12">
@@ -23,4 +23,4 @@ const Main = () => {
   );
 }
 
-export default Main;
+export default Hero;
