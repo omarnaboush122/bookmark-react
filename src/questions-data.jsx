@@ -23,3 +23,6 @@ const questions = [
     answer: "Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam vitae neque eget nisl gravida pellentesque non ut velit. Thank you for reading it and testing my project !",
   },
 ]
+
+
+export default questions;

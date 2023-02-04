@@ -1,4 +1,5 @@
 import questions from "../questions-data";
+import Question from "./Question";
 
 const Questions = () => {
 
