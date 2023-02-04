@@ -38,7 +38,7 @@ const Features = () => {
         <p className="mt-4 text-GrayishBlue sm:text-lg lg:text-xl lg:mb-8">
         Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.
         </p>
-        <button className="hidden lg:block lg:text-white lg:bg-SoftBlue lg:py-4 lg:px-8 lg:rounded-md lg:border lg:shadow-md lg:hover:bg-white lg:hover:border-SoftBlue lg:hover:text-SoftBlue transition-all duration-300">More Info</button>
+        <button className="hidden lg:block lg:text-white lg:bg-SoftBlue lg:py-3 lg:px-8 lg:rounded-md lg:border lg:shadow-md lg:hover:bg-white lg:hover:border-SoftBlue lg:hover:text-SoftBlue transition-all duration-300">More Info</button>
       </div>
     </article>
     <article className={`mt-20 ${tab === "tab2" ? "flex" : "hidden"} flex-col items-center lg:flex-row lg:w-[1000px] lg:h-[420px] lg:mx-auto`}>
@@ -51,7 +51,7 @@ const Features = () => {
         <p className="mt-4 text-GrayishBlue sm:text-lg lg:text-xl lg:mb-8">
         Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.
         </p>
-        <button className="hidden lg:block lg:text-white lg:bg-SoftBlue lg:py-4 lg:px-8 lg:rounded-md lg:border lg:shadow-md lg:hover:bg-white lg:hover:border-SoftBlue lg:hover:text-SoftBlue transition-all duration-300">More Info</button>
+        <button className="hidden lg:block lg:text-white lg:bg-SoftBlue lg:py-3 lg:px-8 lg:rounded-md lg:border lg:shadow-md lg:hover:bg-white lg:hover:border-SoftBlue lg:hover:text-SoftBlue transition-all duration-300">More Info</button>
       </div>
     </article>
     <article className={`mt-20 ${tab === "tab3" ? "flex" : "hidden"} flex-col items-center lg:flex-row lg:w-[1000px] lg:h-[420px] lg:mx-auto`}>
@@ -64,7 +64,7 @@ const Features = () => {
         <p className="mt-4 text-GrayishBlue sm:text-lg lg:text-xl lg:mb-8">
         Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.
         </p>
-        <button className="hidden lg:block lg:text-white lg:bg-SoftBlue lg:py-4 lg:px-8 lg:rounded-md lg:border lg:shadow-md lg:hover:bg-white lg:hover:border-SoftBlue lg:hover:text-SoftBlue transition-all duration-300">More Info</button>
+        <button className="hidden lg:block lg:text-white lg:bg-SoftBlue lg:py-3 lg:px-8 lg:rounded-md lg:border lg:shadow-md lg:hover:bg-white lg:hover:border-SoftBlue lg:hover:text-SoftBlue transition-all duration-300">More Info</button>
       </div>
     </article>
     </section>
