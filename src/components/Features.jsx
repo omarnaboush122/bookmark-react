@@ -18,7 +18,7 @@ const Features = () => {
 
   
   return (
-    <section className="p-5 my-20 md:p-12">
+    <section name="features" className="p-5 my-20 md:p-12">
     <div className="text-center">
       <h1 className="text-VeryDarkBlue text-3xl font-medium md:text-4xl lg:text-5xl">Features</h1>
       <p className="text-GrayishBlue max-w-[600px] my-8 mx-auto md:text-lg lg:text-xl">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>

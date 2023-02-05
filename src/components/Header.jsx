@@ -1,9 +1,11 @@
 import { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { FaFacebook, FaTwitter } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <header className="relative flex justify-between items-center p-8 sm:px-16 lg:px-32">
       <div>
@@ -23,29 +25,44 @@ const Header = () => {
       </div>
       <nav className="hidden md:block">
         <ul className="flex items-center">
-        <li className="mx-4 lg:mx-6">
-        <a href="#" className="text-VeryDarkBlue text-base uppercase hover:text-SoftRed transition-colors duration-300 md:text-lg">
-          features
-        </a>
-        </li>
-      <li className="mx-4 lg:mx-6">
-      <a href="#" className=" text-VeryDarkBlue text-base uppercase hover:text-SoftRed transition-colors duration-300 md:text-lg">
-          pricing
-        </a>
-      </li>
-        <li className="mx-4 lg:mx-6">
-        <a href="#" className=" text-VeryDarkBlue text-base uppercase hover:text-SoftRed transition-colors duration-300 md:text-lg">
-          contact
-        </a>
-        </li>
-      <li className="mx-4 lg:mx-6">
-      <a
-          href="#"
-          className=" py-2 px-8 bg-SoftRed text-base text-white border uppercase rounded-md shadow-md hover:bg-white hover:border-SoftRed hover:text-SoftRed transition-all duration-300 md:text-lg"
-        >
-          Login
-        </a>
-      </li>
+          <li className="mx-4 lg:mx-6">
+            <Link
+              to="features"
+              smooth={true}
+              duration={500}
+              className="text-VeryDarkBlue text-base uppercase hover:text-SoftRed cursor-pointer transition-colors duration-300 md:text-lg"
+            >
+              features
+            </Link>
+          </li>
+          <li className="mx-4 lg:mx-6">
+            <Link
+              to="pricing"
+              smooth={true}
+              duration={500}
+              className=" text-VeryDarkBlue text-base uppercase hover:text-SoftRed cursor-pointer transition-colors duration-300 md:text-lg"
+            >
+              pricing
+            </Link>
+          </li>
+          <li className="mx-4 lg:mx-6">
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              className=" text-VeryDarkBlue text-base uppercase hover:text-SoftRed cursor-pointer transition-colors duration-300 md:text-lg"
+            >
+              contact
+            </Link>
+          </li>
+          <li className="mx-4 lg:mx-6">
+            <a
+              href="#"
+              className=" py-2 px-8 bg-SoftRed text-base text-white border uppercase rounded-md shadow-md hover:bg-white hover:border-SoftRed hover:text-SoftRed transition-all duration-300 md:text-lg"
+            >
+              Login
+            </a>
+          </li>
         </ul>
       </nav>
       {isOpen && (
@@ -64,24 +81,30 @@ const Header = () => {
             </div>
           </div>
           <nav className="mt-12 flex flex-col items-center">
-            <a
-              href="#"
-              className="py-6 border-t border-t-mobileBorder w-full text-gray-300 text-center uppercase hover:text-SoftRed transition-all duration-200"
+            <Link
+              to="features"
+              smooth={true}
+              duration={500}
+              className="py-6 border-t border-t-mobileBorder w-full text-gray-300 text-center uppercase cursor-pointer hover:text-SoftRed transition-all duration-200"
             >
               features
-            </a>
-            <a
-              href="#"
-              className="py-6 border-t border-t-mobileBorder w-full text-gray-300 text-center uppercase hover:text-SoftRed transition-all duration-200"
+            </Link>
+            <Link
+              smooth={true}
+              duration={500}
+              to="pricing"
+              className="py-6 border-t border-t-mobileBorder w-full text-gray-300 text-center uppercase cursor-pointer hover:text-SoftRed transition-all duration-200"
             >
               pricing
-            </a>
-            <a
-              href="#"
-              className="py-6 border-t border-b border-y-mobileBorder w-full text-gray-300 text-center uppercase mb-8 hover:text-SoftRed transition-all duration-200"
+            </Link>
+            <Link
+              smooth={true}
+              duration={500}
+              to="contact"
+              className="py-6 border-t border-b border-y-mobileBorder w-full text-gray-300 text-center uppercase cursor-pointer mb-8 hover:text-SoftRed transition-all duration-200"
             >
               contact
-            </a>
+            </Link>
             <a
               href="#"
               className="py-4 border border-white w-full rounded-md text-gray-300 text-center uppercase hover:text-SoftRed hover:border-SoftRed transition-all duration-200"

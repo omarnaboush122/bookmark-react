@@ -1,4 +1,5 @@
 import { FaFacebook, FaTwitter } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
@@ -8,16 +9,16 @@ const Footer = () => {
         alt="logo"
         className="img-filter w-48 mb-12 lg:mb-0"
       />
-      <div className="flex flex-col items-center text-white lg:flex-row">
-        <a href="#" className="mb-10 uppercase tracking-wide hover:text-SoftRed transition-colors duration-300 lg:text-xl lg:mb-0 lg:mr-10">
+      <div className="flex flex-col items-center text-white lg:flex-row lg:items-start">
+        <Link to="features" smooth={true} duration={500} className="mb-10 uppercase cursor-pointer tracking-wide hover:text-SoftRed transition-colors duration-300 lg:text-xl lg:mb-0 lg:mr-10">
           Features
-        </a>
-        <a href="#" className="mb-10 uppercase tracking-wide hover:text-SoftRed transition-colors duration-300 lg:text-xl lg:mb-0 lg:mr-10">
+        </Link>
+        <Link to="pricing" smooth={true} duration={500} className="mb-10 uppercase cursor-pointer tracking-wide hover:text-SoftRed transition-colors duration-300 lg:text-xl lg:mb-0 lg:mr-10">
           Pricing
-        </a>
-        <a href="#" className="mb-12 uppercase tracking-wide hover:text-SoftRed transition-colors duration-300 lg:text-xl lg:mb-0 lg:mr-10">
+        </Link>
+        <Link to="contact" smooth={true} duration={500} className="mb-12 uppercase cursor-pointer tracking-wide hover:text-SoftRed transition-colors duration-300 lg:text-xl lg:mb-0 lg:mr-10">
           Contact
-        </a>
+        </Link>
       </div>
       <div className="flex items-center space-x-12">
         <a href="#" className="text-white hover:text-SoftRed transition-colors duration-300">

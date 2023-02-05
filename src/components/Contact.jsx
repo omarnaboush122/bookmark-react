@@ -42,7 +42,7 @@ const Contact = () => {
   },[isCorrect,isError])
 
   return (
-    <section className="bg-SoftBlue px-8 py-12 text-white text-center">
+    <section name="contact" className="bg-SoftBlue px-8 py-12 text-white text-center">
       <p className="text-sm tracking-[0.3rem] uppercase lg:text-base">
         35,000+ already joined
       </p>
