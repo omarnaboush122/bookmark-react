@@ -7,7 +7,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="relative flex justify-between items-center p-8 sm:px-16 lg:px-32">
+    <header className="relative flex justify-between items-center p-8 sm:px-16 lg:px-24">
       <div>
         <img
           src="./images/logo-bookmark.svg"
