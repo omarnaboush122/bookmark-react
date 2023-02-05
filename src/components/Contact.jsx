@@ -54,7 +54,7 @@ const Contact = () => {
         className="flex flex-col items-center md:flex-row md:items-start md:justify-center"
       >
         <div
-          className={`relative p-1 pb-8 mb-5 rounded-md ${
+          className={`relative p-1 pb-8 mb-3 rounded-md ${
             isError && "bg-SoftRed"
           } ${isCorrect && "bg-[#57faa9]"}`}
         >
@@ -85,7 +85,7 @@ const Contact = () => {
         </div>
         <button
           type="submit"
-          className="w-[300px] bg-SoftRed sm:w-[400px] mx-auto px-6 py-3 rounded-md border border-SoftRed shadow-md hover:bg-white hover:border-SoftRed hover:text-SoftRed transition-all duration-300 md:m-0 md:ml-6 md:w-[150px]"
+          className="w-[300px] bg-SoftRed sm:w-[400px] mx-auto px-6 py-3 rounded-md border border-SoftRed shadow-md hover:bg-white hover:border-SoftRed hover:text-SoftRed transition-all duration-300 md:m-1 md:ml-6 md:w-[150px]"
         >
           Contact Us
         </button>
