@@ -64,6 +64,7 @@ const Contact = () => {
             className="w-[300px] sm:w-[400px] mx-auto py-3 px-6 text-VeryDarkBlue rounded-md border outline-none md:mx-0"
             onChange={handleChange}
             value={email}
+            required
           />
           {isError && (
             <>

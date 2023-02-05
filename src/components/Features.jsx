@@ -1,6 +1,5 @@
 import { useState } from "react";
 import data from "../data.json";
-import Feature from "./Feature";
 
 const Features = () => {
   const [value, setValue] = useState(0);
@@ -32,7 +31,6 @@ const Features = () => {
       </div>
       {data.features.map((feature, index) => {
         const { img, title, info } = feature;
-
         return (
           <article
             key={index}
