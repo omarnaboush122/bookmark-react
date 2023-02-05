@@ -9,17 +9,17 @@ const Question = ({ question, answer }) => {
 
   return (
     <div className="py-8 border-b border-b-GrayishBlue">
-      <div className="flex justify-between items-center">
-        <h3
-          className="text-VeryDarkBlue font-medium cursor-pointer hover:text-SoftRed md:text-xl transition-colors duration-300"
-          onClick={toggleAnswer}
-        >
+      <div
+        className="flex justify-between items-center cursor-pointer group"
+        onClick={toggleAnswer}
+      >
+        <h3 className="text-VeryDarkBlue font-medium group group-hover:text-SoftRed md:text-xl transition-colors duration-300">
           {question}
         </h3>
         <img
           src="./images/icon-arrow.svg"
           alt="icon-arrow"
-          className={`cursor-pointer ${
+          className={`${
             showAnswer ? "img-active" : ""
           } transition-all duration-300 lg:w-[25px]`}
           onClick={toggleAnswer}
