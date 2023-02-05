@@ -10,7 +10,7 @@ const Header = () => {
         <img
           src="./images/logo-bookmark.svg"
           alt="logo-bookmark"
-          className="cursor-pointer"
+          className="lg:w-48 cursor-pointer"
         />
       </div>
       <div className="md:hidden">
