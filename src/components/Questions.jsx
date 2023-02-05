@@ -1,12 +1,11 @@
-import questions from "../questions-data";
+import data from "../data";
 import Question from "./Question";
 
 const Questions = () => {
 
-
-  const allQuestions = questions.map(question => (
+  const allQuestions = data.questions.map(question => (
     <Question key={question.id} {...question}/>
-  ) )
+  ))
 
   return (
     <section className="px-8 py-12 lg:mt-16">
